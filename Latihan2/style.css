@@ -1,0 +1,222 @@
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@300;400;600;700&display=swap');
+
+body{
+    margin: auto;
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
+axa{
+    color: #020090;
+}
+.palingatas{
+    height: 80px;
+    background-color: rgb(229, 228, 226);
+   
+}
+p.atas{
+    margin: 0;
+    padding-left: 240px;
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
+.upper{
+    max-width: 100%;
+    max-height: 100%;
+    height: 80px;
+    width: 100%;
+    margin: auto;
+    color: #020090;
+    border: 10px;
+}
+img.logo
+{
+    width: auto;
+    vertical-align: baseline;
+    position: absolute;
+    left: 100px;
+    top: 10px;
+
+}
+
+img.slide{
+    width: 100%;
+    height: auto;
+    position: relative;
+    align-items: center;
+    
+}
+
+p.texttengah{
+    font-family: 'Source Sans Pro', sans-serif;
+    text-align: center;
+    font-size: 25px;
+    font-weight: 600;
+    margin: 0;
+    padding: 25px 0 0 0;
+}
+
+button.atas{
+    background-color: #020090; 
+    border: none;
+    border-radius: 6px;
+    color: white;
+    padding: 5px 10px;
+    font-size: 14px;
+    cursor: pointer;
+  
+    margin: 0;
+    position:relative;
+    top: 30px;
+    right: 100px;
+    float: right;
+}
+
+button.gratis{
+    background-color: #020090; 
+    border: none;
+    border-radius: 10px;
+    color: white;
+    padding: 5px 35px;
+    font-size: 25px;
+    box-shadow: 6px 6px rgb(216, 216, 216);
+    cursor: pointer;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-weight: 600;
+  
+    position:relative;
+    float: right;
+    bottom: 100px;
+    right: 30px;
+}
+
+button.daftar{
+    background-color: #020090; 
+    border: none;
+    border-radius: 10px;
+    color: white;
+    padding: 10px 20px;
+    font-size: 18px;
+    box-shadow: 6px 6px rgb(216, 216, 216);
+    cursor: pointer;
+  
+    margin: 0;
+    position: relative;
+    float:inline-start;
+}
+
+button.register{
+    background-color: #020090; 
+    border: none;
+    border-radius: 6px;
+    color: white;
+    padding: 5px 50px;
+    display: inline-block;
+    font-size: 12px;
+    cursor: pointer;
+  
+    margin: 0;
+    position: relative;
+
+    /* top: 100px;
+    left: 45%;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%); */
+}
+    
+.tentang{
+    box-sizing: border-box;
+    width: 90%;
+    height: 200px;
+    position: relative;
+    margin: auto;
+    text-align: center;
+    background-color: azure;
+}
+
+.kolomkiri{
+    margin-left:5%;
+    width: 45%;
+    text-align: right;
+    
+}
+
+.kolomkanan{
+    margin-left:0;
+    width: 45%;
+    text-align: left;
+}
+
+p.icon{
+    display: flex;
+
+    float: left;
+    margin: 0;
+    padding: 20px 0;
+}
+
+img.icon{
+    padding: 0 10px 0 20px;
+    margin: 0%;
+    position: relative;
+}
+
+p.iconkiri{
+    display: flex;
+    float: right;
+    margin: 0;
+    padding: 20px 0;
+}
+
+img.iconkiri{
+    padding:0 20px 0 10px;
+    margin: 0;
+    position: relative;
+}
+
+/* img.background
+{
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size:cover;
+    opacity: 0.5;
+    background-color: transparent;
+} */
+
+
+.center{
+    width: 700px;
+    margin-left: auto;
+    margin-right: auto;
+}
+    
+input.text{
+    font-size: large;
+    width: 330px;
+    margin: 5px 0;
+      
+}
+
+input.checkbox{
+    width: 50%;
+}
+
+img.bottom {
+text-align: center;
+padding-top: 25px;
+}
+
+td.label{
+    text-align: right;
+    width: 50%;
+    padding-right: 40px;   
+}
+
+.part{
+    padding-right: 100px;
+}
+
+.checklist{
+    width: 300px;
+    font-size: 10px;
+    display: flex;
+}
