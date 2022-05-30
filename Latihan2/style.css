@@ -122,6 +122,11 @@ button.register{
     -ms-transform: translate(-50%, -50%);
     transform: translate(-50%, -50%); */
 }
+
+h2{
+    text-align: center;
+    font-family: 'Source Sans Pro', sans-serif;
+}
     
 .tentang{
     box-sizing: border-box;
@@ -202,7 +207,10 @@ input.checkbox{
 
 img.bottom {
 text-align: center;
+width: 60%;
 padding-top: 25px;
+padding-left: 270px;
+padding-right: 270px;
 }
 
 td.label{
