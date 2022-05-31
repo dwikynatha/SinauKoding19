@@ -130,12 +130,13 @@ h2{
     
 .tentang{
     box-sizing: border-box;
-    width: 90%;
+    width: 1000px;
     height: 200px;
     position: relative;
     margin: auto;
     text-align: center;
-    background-color: azure;
+
+    background-color: rgb(255, 255, 255);
 }
 
 .kolomkiri{
@@ -178,16 +179,6 @@ img.iconkiri{
     position: relative;
 }
 
-/* img.background
-{
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size:cover;
-    opacity: 0.5;
-    background-color: transparent;
-} */
-
-
 .center{
     width: 700px;
     margin-left: auto;
@@ -228,3 +219,11 @@ td.label{
     font-size: 10px;
     display: flex;
 }
+
+/* .form{
+    background-image: url(assets/pnc.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size:cover;
+    backface-visibility: hidden;
+} */
